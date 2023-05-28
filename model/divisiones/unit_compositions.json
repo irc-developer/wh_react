@@ -1,0 +1,11 @@
+{
+    "unit_compositions": [
+        {
+            "id": 0,
+            "min": 0,
+            "max": 0,
+            "has_sargent": true,
+            "unit_id":0
+        }
+    ]
+}

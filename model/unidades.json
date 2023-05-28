@@ -1,0 +1,101 @@
+{
+    "model": {
+        "id": 1,
+        "name": "Escuadra de Hermanas de Batalla",
+        "movement": "6",
+        "toughness": "3",
+        "salvation": "3+",
+        "wounds": "1",
+        "leadership": "7",
+        "OC": "2",
+        "invulnerableSave": "6+",
+        "keywords": [
+            {
+                "id": 1,
+                "name": "Infantry",
+                "type": "unit"
+            },
+            {
+                "id": 2,
+                "name": "Adeptus Astartes",
+                "type": "faction"
+            },
+            {
+                "id": 3,
+               "name": "Adeptus Astartes",
+                "type": "faction"
+            },
+
+            {
+                "id": 4,
+                "name": "Adeptus Astartes",
+                "type": "faction"
+            },
+
+            {
+                "id": 3,
+                "name": "Adeptus Astartes",
+                "type": "faction"
+            }
+        ],
+        "abilities": [
+            {
+                "id": 1,
+                "name": "Deep Strike",
+                "description": " pueden hacer DR ",
+                "type": "core"
+            },
+            {
+                "id": 2,
+                "name": "Oath of Moment",
+                "description": " Repiten todo contra una unidad seleccionada ",
+                "type": "faction"
+            },
+            {
+                "id": 3,
+                "name": "Teleport Homer",
+                "description": " que se teleportan sin gastar CP ",
+                "type": "unit"
+            }
+        ],
+        "weapons": [
+            {
+                "id": 1,
+                "abilities": [
+                    {
+                        "id": 1,
+                        "name": "devastating wounds",
+                        "description": " Hacen mortales a seises ",
+                        "type": "weapon"
+                    }
+                ],
+                "armorPenetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "name": "Assault Cannon",
+                "range": "24",
+                "strenght": "6",
+                "toHit": "3+"
+            }
+        ]
+    },
+
+    "weapon":  {
+        "id": 1,
+        "abilities": [
+            {
+                "id": 1,
+                "name": "devastating wounds",
+                "description": " Hacen mortales a seises ",
+                "type": "weapon"
+            }
+        ],
+        "armorPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "name": "Assault Cannon",
+        "range": "24",
+        "strenght": "6",
+        "toHit": "3+"
+    }
+}

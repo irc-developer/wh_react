@@ -1,0 +1,614 @@
+{
+    "army_rules": [
+        {
+        "id": 1,
+        "army": "Adepta Sororitas",
+        "name": "Acts of Faith",
+        "descrip": "If your Army Faction is ADEPTA SORORITAS, each unit from your army with this ability can perform one Act of Faith per phase. This is done using Miracle dice.",
+        "mechanic": "GAINING MIRACLE DICE \n If your Army Faction is ADEPTA SORORITAS, you gain 1 Miracle dice: \n · At the start of each turn. \n · Each time an ADEPTA SORORITAS unit from your army is destroyed. \n Each time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side - this is your Miracle dice pool. "
+        },
+        {
+        "id": 2,
+        "army": "Adepta Sororitas",
+        "name": "Acts of Faith",
+        "descrip": "Performing Acts of Faith",
+        "mechanic": "Before making a dice roll for a model or unit from your army with the Acts of Faith ability, if you have one or more dice in your Miracle dice pool, that unit can perform an Act of Faith. If it does, select one of the dice from your Miracle dice pool to substitute that dice roll (if a roll involves more than one dice, e.g. a Charge roll or Battle-shock test, only a single dice can be substituted). The dice that is being substituted is not rolled; instead the value of the selected Miracle dice is used as if it had been rolled (this counts as an unmodified dice roll of that value for all rules purposes). Each Miracle dice can only be selected for substitution once. Once all Miracle dice substitutions have been made, remove the chosen Miracle dice from your Miracle dice pool, and roll all remaining, unsubstituted dice that are a part of the dice roll. You can use Miracle dice when a unit performs an Act of Faith for any of the following types of dice roll: \n Advance roll \n \n Battle-shock test \n Charge roll \n Damage roll \n Hit roll \n Saving throw \n Wound roll "
+        }
+    ],
+
+    "Stratagem": {
+        "id": 1,
+        "name": "Rejoice the Fallen",
+        "type": "Strategic Ploy",
+        "detachment": "Hallowed Martyrs",
+        "flavor_text": "The death of a Battle Sister only stirs the survivors to fight harder to exact swift vengeance.",
+        "when": "Your opponent's Shooting Phase, just after an enemy unit has resolved its attacks.",
+        "target": "One ADEPTA SORORIRTA unit from your army that had one on more of its models destroyed as a result of the attacking unit's attacks.",
+        "effect": "Your unit can shoot as if it were in your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an elegible target.",
+        "cost": "1CP"
+    },
+    "detachment_rule": {
+        "id": 1,
+        "army_faction": "adepta sororitas",
+        "detachment": "Hallowed Martyrs",
+        "name": "THE BLOOD OF MARTYRS ",
+        "flavor_text": "The blood of martyrs is the life force of the Imperium. So do the tenets of this Order joyously proclaim, and in its warriors' darkness hour does the sacrifice of their fallen Sisters shine brightest.",
+        "rule_text": "Each time an ADEPTA SORORITAS model from your army makes an attack, add 1 to the Hit roll if that modlel's unit is below its Starting Strenght, and add 1 to the Wound roll, as well, if that model's unit is Below Half-strength. For the purposes of this ability, if an unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds."
+    },
+    "abilities": [
+        {
+            "id": 1,
+            "type": "unit",
+            "name": "Cherub",
+            "rule_text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.",
+            "designers_note": "Place a Cherub token next to the unit, removing it once this ability has been used.",
+            "ability_id": null
+        },
+        {
+            "id": 2,
+            "type": "unit",
+            "name": "Defenders of the Faith",
+            "rule_text": " At the end of your Command Phase, for each objective marker you contrrol that has one or more units from your army within this ability within range of it, you gain 1 Miracle dice.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 3,
+            "type": "waregear",
+            "name": "Simulacrum Imperialis",
+            "rule_text": "Each time a unit is destroyed by the bearer's, you gain 1 Miracle dice.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 4,
+            "type": "faction",
+            "name": "Acts of Faith",
+            "rule_text": "",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 5,
+            "type": "weapon",
+            "name": "Assault",
+            "rule_text": "Weapons with [ASSAULT] in their profile are known as Assault weapons. If a unit that Advanced this turn contains any models equipped with Assault weapons it is still eligible to shoot in this turn's Shooting phase When such a unit is selected to shoot, you can only resolve attacks using Assault weapons its models are equipped with can be shot even if the bearer's unit Advanced.",
+            "designers_note": "",
+            "ability_id": null
+        },
+
+        {
+            "id": 7,
+            "type": "weapon",
+            "name": "Blast",
+            "rule_text": "Weapons with [BLAST] in their profile are known Blast weapons, and they make a random number of attacks. Each time you determine how many attacks are made with a Blast weapon, add 1 to the result every five models that were in the target unit when you selected it as the target (rounding down). Blast weapons can never be used to make attacks against a unit that is within Engagement Range of one or more units from the attacking model's army (including its own unit).",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 8,
+            "type": "weapon",
+            "name": "Devastating Wounds",
+            "rule_text": "Weapons with [DEVASTATING WOUNDS] in their profile are known as Devastating Wounds weapons. Each attack is made with such a weapon, a Critical Wound inflicts a number of mortal wounds on the target equal to the Damage characteristic of that weapon and the attack sequence ends.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 9,
+            "type": "weapon",
+            "name": "Heavy",
+            "rule_text": "Weapons with [HEAVY] in their profile are known as Heavy weapons. Each time an attack is made with such a weapon, if the attacking model's unit Remained Stationary this turn, add 1 to that attack's Hit roll.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 10,
+            "type": "weapon",
+            "name": "Ignores Cover",
+            "rule_text": "Weapons with [IGNORES COVER] in their profile are known as Ignores Cover weapons. Each time an attack is made with such a weapon, the target cannot have the Benefit of Cover against that attack.",
+            "designers_note": ".",
+            "ability_id": null
+        },
+        {
+            "id": 11,
+            "type": "weapon",
+            "name": "Indirect fire",
+            "rule_text": "Weapons with [INDIRECT FIRE] in their profile are known as Indirect Fire weapons, and attacks can be made with them even if the target is not visible to the attacking model. These attacks can destroy enemy models in a target unit even though none may have been visible to the attacking unit when you selected that target. If no models in a target unit are visible to the attacking unit when you select that target, then each time a model in the attacking unit makes an attack against that target using an Indirect Fire weapo. subtract 1 from that attack's Hit roll and the target as the benefit of Cover against that attack.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 12,
+            "type": "weapon",
+            "name": "Melta 2",
+            "rule_text": "Weapons with [MELTA X] in their profile are known as Melta weapons. Each time an attack made with such a weapon targets a unit within half that weapon's range, that attack's Damage characteristic is increased by the amount denoted by X.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 13,
+            "type": "weapon",
+            "name": "Pistol",
+            "rule_text": "Weapons with [PISTOL in their profile are known as Pistols. If a unit contains any models equipped with Pistols, that unit is eligible to shoot in its controlling ; player's Shooting phase even while it is within Engagement Range of one or more enemy units. When such a unit is selected to shoot, it can only resolve attacks using its Pistols and can only target one of the enemy units it is within Engagement Range of In such circumstances, a Pistol can target an enemy unit even if other friendly units are within. Engagement Range of the same enemy unit. If a model is equipped with one or more Pistols, unless it is a MONSTER OF VEHICLE model, it can either shoot with its Pistols or with all of its other ranged weapons Declare whether such a model will shoot with its Pistols or its other ranged weapons before selecting targets. Can be shot even if the bearer's unit is within Engagement Range of enemy units, but must target one of those enemy units Cannot be shot alongside any other non-Pistol weapon (except by a MONSTER OF VEHICLE).",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 14,
+            "type": "weapon",
+            "name": "Weapons with [RAPID FIRE X] in their profile are known as Rapid Fire weapons. Each time such a weapon targets a unit within half that weapon's range, the Attacks characteristic of that weapon is increased by the amount denoted by X.",
+            "rule_text": "",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 15,
+            "type": "weapon",
+            "name": "Rapid Fire 2",
+            "rule_text": "Weapons with [RAPID FIRE X] in their profile are known as Rapid Fire weapons. Each time such a weapon targets a unit within half that weapon's range, the Attacks characteristic of that weapon is increased by the amount denoted by X.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 16,
+            "type": "weapon",
+            "name": "SUSTAINED HITS 1",
+            "rule_text": "Weapons with [SUSTAINED HITS X] in their profile are known as Sustained Hits weapons. Each time an attack is made with such a weapon, if a Critical Hit is rolled, that attack scores a number of additional hits on the target as denoted by X",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 17,
+            "type": "weapon",
+            "name": "Torrent",
+            "rule_text": "Weapons with [TORRENT] in their profile are known as Torrent weapon. Each time an attack is made with such a weapon, that attack automatically hits the target.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 18,
+            "type": "weapon",
+            "name": "Twin-linked",
+            "rule_text": "Weapons with [TWIN-LINKED] in their profile are known as Twin linked weapons Each time an attack is made with such a weapon, you can re-roll that attack's Wound roll.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 19,
+            "type": "weapon",
+            "name": "Benefit of Cover",
+            "rule_text": "+1 saving throws. Never it improves >= 3+ saving from FP0 attacks",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 20,
+            "type": "unit",
+            "name": "Relic of the Matriarchs",
+            "rule_text": "+1 saving throws. Never it improves >= 3+ saving from FP0 attacks",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 21,
+            "type": "sub-ability",
+            "name": "The Flery Heart (Aura)",
+            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, if that unit is destroyed, the Miracle dice you gain as a result is automatically a 6.",
+            "designers_note": "",
+            "ability_id": 20
+        },
+        {
+            "id": 22,
+            "type": "sub-ability",
+            "name": "Censer of the Sacred Rose (Aura)",
+            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, improve that unit's Leadership characteristic by 1.",
+            "designers_note": "",
+            "ability_id": 20
+        },
+        {
+            "id": 23,
+            "type": "sub-ability",
+            "name": "Icon of the Valorous Heart (Aura)",
+            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, that unit has the Feel No Pain 6+ ability.",
+            "designers_note": "",
+            "ability_id": 20
+        },
+        {
+            "id": 24,
+            "type": "sub-ability",
+            "name": "Simulacrum of the Ebon Chalice (Aura)",
+            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, that unit can perform any number of Acts of Faith per phase, instead of only one.",
+            "designers_note": "",
+            "ability_id": 20
+        },
+        {
+            "id": 25,
+            "type": "sub-ability",
+            "name": "Petals of the Bloody Rose (Aura)",
+            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6 of this model, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+            "designers_note": "",
+            "ability_id": 20
+        },
+        {
+            "id": 26,
+            "type": "sub-ability",
+            "name": "Simulacrum of the Argent Shroud (Aura)",
+            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, add 1 to the Attacks characteristic of Rapid Fire weapons equipped by models in that unit.",
+            "designers_note": "",
+            "ability_id": 20
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "LETHAL HITS",
+            "rule_text": "Weapons with [LETHAL HITS] in their profile are known Lethal Hits weapons. Each time an attack is made with such a weapon, a Critical Hit automatically wounds the target.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "LANCE",
+            "rule_text": "Weapons with [LANCE] in their profile are known as Lance weapons. Each time an attack is made with which a weapon, if the bearer made a Charge move this turn, add to that attack's Wound roll.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "HAZARDOUS",
+            "rule_text": "Weapons with [HAZARDOUS] in their profile are known as Hazardous weapons. Each time a unit is selected to shoot or fight, if one or more models attack with Hazardous weapons, then after that unit has resolved all of its attacks, you must take one Hazardous test for each Hazardous weapon that was just used by rolling one D6. For each roll of 1, that test is failed and one model in that unit equipped with a Hazardous weapon is destroyed (selected by the controlling player), unless that model is a CHARACTER, MONSTER VEHICLE, in which case it suffers 3 mortal wounds instead. Note that if you selected a CHARACTER model in an Attached unit, the mortal wounds suffered must be allocated to that model first, even if there is another model in that unit that has lost one or more wounds or has had attacks allocated to it this phase.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "EXTRA ATTACKS",
+            "rule_text": "Weapons with [EXTRA ATTACKS] in their profile are known as Extra Attacks weapons. Each time the bearer of such a weapon fights, it can make attacks with that weapon in addition to the one it chooses to fight with. The number of attacks made with an Extra Attacks weapon cannot be modified by other rules.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "ANTI",
+            "rule_text": "Weapons with [ANT-KEYWORD X+] in their profile are known as Anti weapons. Each time an attack is made with such a weapon against a target with the keyword after the word 'Anti- an unmodified Wound roll of '+' scores a Critical Wound.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "PRECISION",
+            "rule_text": "Weapons with [PRECISION] in their profile are known as Precision weapons. Each time an attack made with this weapon successfully wounds an Attached unit, if a CHARACTER model in that unit is visible to attacking model, the attacking model's player can choose to have that attack allocated to that CHARACTER model instead of following the normal attack sequence.",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "",
+            "rule_text": "",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "",
+            "rule_text": "",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "",
+            "rule_text": "",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "",
+            "rule_text": "",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "",
+            "rule_text": "",
+            "designers_note": "",
+            "ability_id": null
+        },
+        {
+            "id": 27,
+            "type": "weapon",
+            "name": "",
+            "rule_text": "",
+            "designers_note": "",
+            "ability_id": null
+        }
+    ],
+    "units": [
+        {
+            "id": 1,
+            "abilities": [],
+            "invulnerableSave": "6+",
+            "keywords": [],
+            "leadership": "7",
+            "movement": "6",
+            "name": "Battle Sisters Squad",
+            "OC": "2",
+            "quantity": "",
+            "salvation": "3+",
+            "toughness": "3",
+            "unit_composition": {},
+            "equipped_with": [],
+            "waregear_options": [],
+            "weapons": [],
+            "wounds": "1"
+        },
+        {
+            "id": 2,
+            "abilities": [],
+            "invulnerableSave": "4+",
+            "keywords": [],
+            "leadership": "6",
+            "movement": "6",
+            "name": "Triumph of Saint Katherine",
+            "OC": "6",
+            "quantity": "1",
+            "salvation": "3+",
+            "toughness": "3",
+            "unit_composition": {},
+            "equipped_with": [],
+            "waregear_options": [],
+            "weapons": [],
+            "wounds": "18"
+        }
+    ],
+    "unit_composition": {
+        "min": 0,
+        "max": 0,
+        "has_sargent": true
+    },
+    "waregear_option": {
+        "id": 0,
+        "descript": ""
+    },
+    "weapons": [
+        {
+            "id": 1,
+            "a1bilities": [],
+            "armorPenetration": "0",
+            "attacks": "2",
+            "damage": "2",
+            "name": "Artificer-crafted storm bolter",
+            "range": "24",
+            "strenght": "4",
+            "toHit": "3+"
+        },
+        {
+            "id": 2,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "1",
+            "damage": "1",
+            "name": "Bolt pistol",
+            "range": "12",
+            "strenght": "4",
+            "toHit": "3+"
+        },
+        {
+            "id": 3,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "1",
+            "damage": "1",
+            "name": "Boltgun",
+            "range": "24",
+            "strenght": "4",
+            "toHit": "3+"
+        },
+        {
+            "id": 4,
+            "abilities": [],
+            "armorPenetration": "-1",
+            "attacks": "3",
+            "damage": "2 ",
+            "name": "Heavy Bolter",
+            "range": "36",
+            "strenght": "5",
+            "toHit": "4+"
+        },
+        {
+            "id": 5,
+            "abilities": [],
+            "armorPenetration": "-4",
+            "attacks": "1",
+            "damage": "D6",
+            "name": "Meltagun",
+            "range": "12",
+            "strenght": "9",
+            "toHit": "3+"
+        },
+        {
+            "id": 6,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "D6",
+            "damage": "12",
+            "name": "Ministorum flamer",
+            "range": "5",
+            "strenght": "1",
+            "toHit": "N/A"
+        },
+        {
+            "id": 7,
+            "abilities": [],
+            "armorPenetration": "-1",
+            "attacks": "D6",
+            "damage": "1",
+            "name": "Ministorum heavy flamer",
+            "range": "12",
+            "strenght": "6",
+            "toHit": "N/A"
+        },
+        {
+            "id": 8,
+            "abilities": [],
+            "armorPenetration": "-4",
+            "attacks": "2",
+            "damage": "D6",
+            "name": "Multimelta",
+            "range": "18",
+            "strenght": "9",
+            "toHit": "4+"
+        },
+        {
+            "id": 9,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "3",
+            "damage": "1",
+            "name": "Chainsword",
+            "range": "Melee",
+            "strenght": "3",
+            "toHit": "4+"
+        },
+        {
+            "id": 10,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "1",
+            "damage": "1",
+            "name": "Close Combat",
+            "range": "Melee",
+            "strenght": "3",
+            "toHit": "4+"
+        },
+        {
+            "id": 11,
+            "abilities": [],
+            "armorPenetration": "-2",
+            "attacks": "2",
+            "damage": "1",
+            "name": "Power weapon",
+            "range": "Melee",
+            "strenght": "4",
+            "toHit": "4+"
+        },
+        {
+            "id": 12,
+            "abilities": [],
+            "armorPenetration": "-2",
+            "attacks": "5",
+            "damage": "3",
+            "name": "Lance of Illumination (Strike)",
+            "range": "Melee",
+            "strenght": "8",
+            "toHit": "2+"
+        },
+        {
+            "id": 13,
+            "abilities": [],
+            "armorPenetration": "-1",
+            "attacks": "10",
+            "damage": "1",
+            "name": "Lance of Illumination (Sweep)",
+            "range": "Melee",
+            "strenght": "5",
+            "toHit": "2+"
+        },
+        {
+            "id": 14,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "3D6 ",
+            "damage": "1",
+            "name": "Exorcist Conflagration Rockets",
+            "range": "36",
+            "strenght": "5",
+            "toHit": "3+"
+        },
+        {
+            "id": 15,
+            "abilities": [],
+            "armorPenetration": "-2",
+            "attacks": "D6+2",
+            "damage": "D6",
+            "name": "Exorcist Missile Launcher",
+            "range": "36",
+            "strenght": "10",
+            "toHit": "3+"
+        },
+        {
+            "id": 16,
+            "abilities": [],
+            "armorPenetration": "-2",
+            "attacks": "18",
+            "damage": "1",
+            "name": "Relic weapons",
+            "range": "Melee",
+            "strenght": "5",
+            "toHit": "2+"
+        }
+    ],
+    "keywords": [
+        {
+            "id:": 0,
+            "name": "ADEPTA SORORITAS",
+            "descript": "ADEPTA SORORITAS",
+            "type": "faction"
+        },
+        {
+            "id:": 1,
+            "name": "INFANTRY",
+            "descript": "INFANTRY",
+            "type": "unit"
+        },
+        {
+            "id:": 2,
+            "name": "GRENADES",
+            "descript": "GRENADES",
+            "type": "unit"
+        },
+        {
+            "id:": 3,
+            "name": "CHARACTER",
+            "descript": "CHARACTER",
+            "type": "unit"
+        },
+        {
+            "id:": 4,
+            "name": "EPIC HERO",
+            "descript": "EPIC HERO",
+            "type": "unit"
+        },
+        {
+            "id:": 5,
+            "name": "IMPERIUM",
+            "descript": "IMPERIUM",
+            "type": "unit"
+        },
+        {
+            "id:": 6,
+            "name": "TRIUMPH OF SAINT KATHERINE",
+            "descript": "TRIUMPH OF SAINT KATHERINE",
+            "type": "unit"
+        }
+    ],
+    "DamageStatusList": [
+        {
+            "id": 0,
+            "name": "TRIUMPH OF SAINT KATHERINE",
+            "description": "While this model has 1-5 wounds remaining, the Attacks characteristics of all of its weapons are halved, and you can only select one ability when using its Relics of the Matriarchs ability, instead of up to two.",
+            "unit_id":1
+        }
+    ]
+}

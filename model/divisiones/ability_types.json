@@ -1,0 +1,32 @@
+{
+    "ability_types": [
+        {
+            "id": 0,
+            "type": "unit"
+        }, 
+        {
+            "id": 1,
+            "type": "waregear"
+        }, 
+        {
+            "id": 2,
+            "type": "faction"
+        },
+        {
+            "id": 3,
+            "type": "sub-ability"
+        },
+        {
+            "id": 4,
+            "type": "weapon"
+        },
+        {
+            "id": 5,
+            "type": "core"
+        }
+    ]
+}
+
+
+
+

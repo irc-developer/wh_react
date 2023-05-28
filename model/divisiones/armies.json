@@ -1,0 +1,14 @@
+{
+    "armies": [
+        {
+            "id": 0,
+            "descrip": "",
+            "name": "Adepta Sororita"
+        },
+        {
+            "id": 1,
+            "descrip": "",
+            "name": "Grey Knight"
+        }
+    ]
+}

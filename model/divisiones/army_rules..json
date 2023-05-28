@@ -1,0 +1,25 @@
+{
+    "army_rules": [
+        {
+            "id": 1,
+            "name": "Acts of Faith",
+            "descrip": "If your Army Faction is ADEPTA SORORITAS, each unit from your army with this ability can perform one Act of Faith per phase. This is done using Miracle dice.",
+            "mechanic": "GAINING MIRACLE DICE \n If your Army Faction is ADEPTA SORORITAS, you gain 1 Miracle dice: \n · At the start of each turn. \n · Each time an ADEPTA SORORITAS unit from your army is destroyed. \n Each time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side - this is your Miracle dice pool. ",
+            "army_id": 0
+        },
+        {
+            "id": 2,
+            "name": "Acts of Faith",
+            "descrip": "Performing Acts of Faith",
+            "mechanic": "Before making a dice roll for a model or unit from your army with the Acts of Faith ability, if you have one or more dice in your Miracle dice pool, that unit can perform an Act of Faith. If it does, select one of the dice from your Miracle dice pool to substitute that dice roll (if a roll involves more than one dice, e.g. a Charge roll or Battle-shock test, only a single dice can be substituted). The dice that is being substituted is not rolled; instead the value of the selected Miracle dice is used as if it had been rolled (this counts as an unmodified dice roll of that value for all rules purposes). Each Miracle dice can only be selected for substitution once. Once all Miracle dice substitutions have been made, remove the chosen Miracle dice from your Miracle dice pool, and roll all remaining, unsubstituted dice that are a part of the dice roll. You can use Miracle dice when a unit performs an Act of Faith for any of the following types of dice roll: \n Advance roll \n \n Battle-shock test \n Charge roll \n Damage roll \n Hit roll \n Saving throw \n Wound roll ",
+            "army_id": 0
+        }, 
+        {
+            "id": 3,
+            "name": "TELEPORT ASSAULT",
+            "descrip": "",
+            "mechanic": "If your Army Faction is GREY KNIGHTS, at the end of your opponent's turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows: \n COMBAT PATROL: UP TO 1 UNIT \n INCURSION: UP TO 2 \n UNITS STRIKE FORCE: UP TO 3 \n UNITS ONSLAUGHT: UP TO 4 \n UNITS. \n Once you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed.",
+            "army_id": 1
+        }
+    ]
+}

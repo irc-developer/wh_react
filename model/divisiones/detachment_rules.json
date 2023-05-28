@@ -1,0 +1,20 @@
+{
+    "detachment_rules": [
+        {
+            "id": 1,
+            "detachment_id": 0,
+            "name": "THE BLOOD OF MARTYRS ",
+            "flavor_text": "The blood of martyrs is the life force of the Imperium. So do the tenets of this Order joyously proclaim, and in its warriors' darkness hour does the sacrifice of their fallen Sisters shine brightest.",
+            "rule_text": "Each time an ADEPTA SORORITAS model from your army makes an attack, add 1 to the Hit roll if that modlel's unit is below its Starting Strenght, and add 1 to the Wound roll, as well, if that model's unit is Below Half-strength. For the purposes of this ability, if an unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds."
+        },
+        {
+            "id": 1,
+            "detachment_id": 1,            
+            "name": "TELEPORT SHUNT",
+            "flavor_text": "Hardened against the corrupting touch of Chaos, protected by silver sigils and the warriors' own purity of spirit, Grey Knights are capable of enduring rapid and repeated submersions in the warp. When a lightning-fast purgation is required, orbiting strike cruisers maintain a constant spiritual lock on their battle-brothers, enabling Grey Knights to perform short-ranged teleportations. Flickering in and out of reality, this exceptional mobility allows them to outmanoeuvre the most otherworldly of enemies.            ",
+            "rule_text": "Each time a GREY KNIGHTS unit with the Deep Strike ability Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to that unit's Move characteristic and that unit can FLY"
+        }
+
+    ]
+}
+

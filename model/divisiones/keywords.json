@@ -1,0 +1,82 @@
+{
+    "keywords": [
+        {
+            "id:": 0,
+            "name": "ADEPTA SORORITAS",
+            "descript": "ADEPTA SORORITAS",
+            "type": "faction"
+        },
+        {
+            "id:": 1,
+            "name": "INFANTRY",
+            "descript": "INFANTRY",
+            "type": "unit"
+        },
+        {
+            "id:": 2,
+            "name": "GRENADES",
+            "descript": "GRENADES",
+            "type": "unit"
+        },
+        {
+            "id:": 3,
+            "name": "CHARACTER",
+            "descript": "CHARACTER",
+            "type": "unit"
+        },
+        {
+            "id:": 4,
+            "name": "EPIC HERO",
+            "descript": "EPIC HERO",
+            "type": "unit"
+        },
+        {
+            "id:": 5,
+            "name": "IMPERIUM",
+            "descript": "IMPERIUM",
+            "type": "unit"
+        },
+        {
+            "id:": 6,
+            "name": "TRIUMPH OF SAINT KATHERINE",
+            "descript": "TRIUMPH OF SAINT KATHERINE",
+            "type": "unit"
+        },
+        {
+            "id:": 7,
+            "name": "PSYKER",
+            "descript": "",
+            "type": "unit"
+        },
+        {
+            "id:": 8,
+            "name": "PURGATION SQUAD",
+            "descript": "",
+            "type": "unit"
+        },
+        {
+            "id:": 9,
+            "name": "GREY KNIGHTS",
+            "descript": "",
+            "type": "faction"
+        },
+        {
+            "id:": 10,
+            "name": "VEHICLE",
+            "descript": "",
+            "type": "unit"
+        },
+        {
+            "id:": 11,
+            "name": "WALKER",
+            "descript": "",
+            "type": "unit"
+        },
+        {
+            "id:": 12,
+            "name": "GRAND MASTER IN NEMESIS DREADKNIGHT",
+            "descript": "",
+            "type": "unit"
+        }
+    ]
+}

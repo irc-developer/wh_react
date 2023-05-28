@@ -1,0 +1,15 @@
+{
+    
+    "Stratagem": {
+        "id": 1,
+        "name": "Rejoice the Fallen",
+        "type": "Strategic Ploy",
+        "detachment": "Hallowed Martyrs",
+        "flavor_text": "The death of a Battle Sister only stirs the survivors to fight harder to exact swift vengeance.",
+        "when": "Your opponent's Shooting Phase, just after an enemy unit has resolved its attacks.",
+        "target": "One ADEPTA SORORIRTA unit from your army that had one on more of its models destroyed as a result of the attacking unit's attacks.",
+        "effect": "Your unit can shoot as if it were in your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an elegible target.",
+        "cost": "1CP",
+        "army_id":0
+    }
+}

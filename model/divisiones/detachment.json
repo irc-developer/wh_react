@@ -1,0 +1,14 @@
+{
+    "detachments": [
+        {
+            "id": 0,
+            "army_id": 0,
+            "detachment": "Hallowed Martyrs"
+        },
+        {
+            "id": 1,
+            "army_id": 1,
+            "detachment": "TELEPORT STRIKE FORCE"
+        }
+    ]
+}

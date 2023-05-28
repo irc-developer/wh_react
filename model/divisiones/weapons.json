@@ -1,0 +1,324 @@
+{
+    "weapons": [
+        {
+            "id": 1,
+            "abilities": ["Rapid Fire 2"],
+            "armorPenetration": "0",
+            "attacks": "2",
+            "damage": "2",
+            "name": "Artificer-crafted storm bolter",
+            "range": "24",
+            "strenght": "4",
+            "toHit": "3+"
+        },
+        {
+            "id": 2,
+            "abilities": ["Pistol"],
+            "armorPenetration": "0",
+            "attacks": "1",
+            "damage": "1",
+            "name": "Bolt pistol",
+            "range": "12",
+            "strenght": "4",
+            "toHit": "3+"
+        },
+        {
+            "id": 3,
+            "abilities": ["Rapid Fire 1"],
+            "armorPenetration": "0",
+            "attacks": "1",
+            "damage": "1",
+            "name": "Boltgun",
+            "range": "24",
+            "strenght": "4",
+            "toHit": "3+"
+        },
+        {
+            "id": 4,
+            "abilities": ["SUSTAINED HITS 1", "HEAVY"],
+            "armorPenetration": "-1",
+            "attacks": "3",
+            "damage": "2 ",
+            "name": "Heavy Bolter",
+            "range": "36",
+            "strenght": "5",
+            "toHit": "4+"
+        },
+        {
+            "id": 5,
+            "abilities": [],
+            "armorPenetration": "-4",
+            "attacks": "1",
+            "damage": "D6",
+            "name": "Meltagun",
+            "range": "12",
+            "strenght": "9",
+            "toHit": "3+"
+        },
+        {
+            "id": 6,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "D6",
+            "damage": "1",
+            "name": "Ministorum flamer",
+            "range": "12",
+            "strenght": "5",
+            "toHit": "N/A"
+        },
+        {
+            "id": 7,
+            "abilities": [],
+            "armorPenetration": "-1",
+            "attacks": "D6",
+            "damage": "1",
+            "name": "Ministorum heavy flamer",
+            "range": "12",
+            "strenght": "6",
+            "toHit": "N/A"
+        },
+        {
+            "id": 8,
+            "abilities": [],
+            "armorPenetration": "-4",
+            "attacks": "2",
+            "damage": "D6",
+            "name": "Multimelta",
+            "range": "18",
+            "strenght": "9",
+            "toHit": "4+"
+        },
+        {
+            "id": 9,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "3",
+            "damage": "1",
+            "name": "Chainsword",
+            "range": "Melee",
+            "strenght": "3",
+            "toHit": "4+"
+        },
+        {
+            "id": 10,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "1",
+            "damage": "1",
+            "name": "Close Combat",
+            "range": "Melee",
+            "strenght": "3",
+            "toHit": "4+"
+        },
+        {
+            "id": 11,
+            "abilities": [],
+            "armorPenetration": "-2",
+            "attacks": "2",
+            "damage": "1",
+            "name": "Power weapon",
+            "range": "Melee",
+            "strenght": "4",
+            "toHit": "4+"
+        },
+        {
+            "id": 12,
+            "abilities": [],
+            "armorPenetration": "-2",
+            "attacks": "5",
+            "damage": "3",
+            "name": "Lance of Illumination (Strike)",
+            "range": "Melee",
+            "strenght": "8",
+            "toHit": "2+"
+        },
+        {
+            "id": 13,
+            "abilities": [],
+            "armorPenetration": "-1",
+            "attacks": "10",
+            "damage": "1",
+            "name": "Lance of Illumination (Sweep)",
+            "range": "Melee",
+            "strenght": "5",
+            "toHit": "2+"
+        },
+        {
+            "id": 14,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "3D6 ",
+            "damage": "1",
+            "name": "Exorcist Conflagration Rockets",
+            "range": "36",
+            "strenght": "5",
+            "toHit": "3+"
+        },
+        {
+            "id": 15,
+            "abilities": ["IGNORES COVER, "],
+            "armorPenetration": "-2",
+            "attacks": "D6+2",
+            "damage": "D6",
+            "name": "Exorcist Missile Launcher",
+            "range": "36",
+            "strenght": "10",
+            "toHit": "3+"
+        },
+        {
+            "id": 16,
+            "abilities": [],
+            "armorPenetration": "-2",
+            "attacks": "18",
+            "damage": "1",
+            "name": "Relic weapons",
+            "range": "Melee",
+            "strenght": "5",
+            "toHit": "2+"
+        },        
+        {
+            "id": 17,
+            "abilities": ["[IGNORES COVER, TORRENT]"],
+            "armorPenetration": "-1",
+            "attacks": "D6",
+            "damage": "1",
+            "name": "Incinerator",
+            "range": "12\"",
+            "strenght": "6",
+            "toHit": "N/A"
+        },      
+        {
+            "id": 18,
+            "abilities": ["[PSYCHIC, SUSTAINED HITS 1]"],
+            "armorPenetration": "0",
+            "attacks": "6",
+            "damage": "1",
+            "name": "Psilencer",
+            "range": "24\"",
+            "strenght": "5",
+            "toHit": "3+"
+        },      
+        {
+            "id": 19,
+            "abilities": ["[PSYCHIC]"],
+            "armorPenetration": "-1",
+            "attacks": "3",
+            "damage": "2",
+            "name": "Psycannon",
+            "range": "24\"",
+            "strenght": "8",
+            "toHit": "3+"
+        },      
+        {
+            "id": 20,
+            "abilities": ["[RAPID FIRE 2]"],
+            "armorPenetration": "0",
+            "attacks": "2",
+            "damage": "1",
+            "name": "Storm bolter",
+            "range": "24\"",
+            "strenght": "4",
+            "toHit": "3+"
+        },      
+        {
+            "id": 21,
+            "abilities": [],
+            "armorPenetration": "0",
+            "attacks": "3",
+            "damage": "1",
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "strenght": "4",
+            "toHit": "3+"
+        },      
+        {
+            "id": 22,
+            "abilities": ["[PSYCHIC]"],
+            "armorPenetration": "-2",
+            "attacks": "3",
+            "damage": "2",
+            "name": "Nemesis force weapon",
+            "range": "Melee",
+            "strenght": "6",
+            "toHit": "3+"
+        },      
+        {
+            "id": 23,
+            "abilities": ["PSYCHIC, SUSTAINED HITS 1"],
+            "armorPenetration": "0",
+            "attacks": "12",
+            "damage": "1",
+            "name": "Gatling psilencer",
+            "range": "24\"",
+            "strenght": "6",
+            "toHit": "3+"
+        },      
+        {
+            "id": 24,
+            "abilities": ["[IGNORES COVER, TORRENT]"],
+            "armorPenetration": "-1",
+            "attacks": "2D6",
+            "damage": "1",
+            "name": "Heavy incinerator",
+            "range": "18\"",
+            "strenght": "6",
+            "toHit": "N/A"
+        },
+        {
+            "id": 25,
+            "abilities": ["[PSYCHIC]"],
+            "armorPenetration": "-1",
+            "attacks": "6",
+            "damage": "3",
+            "name": "Heavy psycannon",
+            "range": "24\"",
+            "strenght": "10",
+            "toHit": "3+"
+        },
+        {
+            "id": 26,
+            "abilities": [],
+            "armorPenetration": "-1",
+            "attacks": "6",
+            "damage": "1",
+            "name": "Dreadfists",
+            "range": "Melee",
+            "strenght": "6",
+            "toHit": "3+"
+        },
+        {
+            "id": 27,
+            "abilities": ["[PSYCHIC]"],
+            "armorPenetration": "-3",
+            "attacks": "5",
+            "damage": "1D6+1",
+            "name": "Nemesis daemon greathammer ",
+            "range": "Melee",
+            "strenght": "14",
+            "toHit": "4+"
+        },
+        {
+            "id": 28,
+            "abilities": ["PSYCHIC"],
+            "armorPenetration": "",
+            "attacks": "5",
+            "damage": "D6",
+            "name": "Nemesis greatsword - strike",
+            "range": "Melee",
+            "strenght": "10",
+            "toHit": "3+"
+        },
+        {
+            "id": 29,
+            "abilities": ["PSYCHIC"],
+            "armorPenetration": "-1",
+            "attacks": "10",
+            "damage": "1",
+            "name": "Nemesis greatsword - sweep",
+            "range": "Melee",
+            "strenght": "5",
+            "toHit": "3+"
+        }
+
+    ]
+}
