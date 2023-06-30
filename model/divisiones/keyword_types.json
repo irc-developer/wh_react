@@ -1,0 +1,10 @@
+{
+    "keyword_types": [
+        {
+            "type": "faction"
+        },
+        {
+            "type": "unit"
+        }
+    ]
+}

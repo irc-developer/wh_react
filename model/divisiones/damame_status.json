@@ -4,13 +4,13 @@
             "id": 0,
             "name": "TRIUMPH OF SAINT KATHERINE",
             "description": "While this model has 1-5 wounds remaining, the Attacks characteristics of all of its weapons are halved, and you can only select one ability when using its Relics of the Matriarchs ability, instead of up to two.",
-            "unit_id": 1
+            "unit_id": 2
         },
         {
             "id": 1,
             "name": "GRAND MASTER IN NEMESIS DREADKNIGHT",
             "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-            "unit_id": 1
+            "unit_id": 5
         }
     ]
 }

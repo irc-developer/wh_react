@@ -1,318 +1,154 @@
 {
     "abilities": [
         {
-            "id": 1,
-            "ability_ability_type_id_id": 0,
-            "name": "Cherub",
-            "rule_text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.",
-            "designers_note": "Place a Cherub token next to the unit, removing it once this ability has been used.",
-            "ability_id": null
-        },
-        {
-            "id": 2,
-            "ability_type_id": 0,
-            "name": "Defenders of the Faith",
-            "rule_text": " At the end of your Command Phase, for each objective marker you contrrol that has one or more units from your army within this ability within range of it, you gain 1 Miracle dice.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 3,
-            "ability_type_id": 1,
-            "name": "Simulacrum Imperialis",
-            "rule_text": "Each time a unit is destroyed by the bearer's, you gain 1 Miracle dice.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 4,
-            "ability_type_id": 2,
-            "name": "Acts of Faith",
-            "rule_text": "",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 5,
-            "ability_type_id": 3,
-            "name": "Assault",
-            "rule_text": "Weapons with [ASSAULT] in their profile are known as Assault weapons. If a unit that Advanced this turn contains any models equipped with Assault weapons it is still eligible to shoot in this turn's Shooting phase When such a unit is selected to shoot, you can only resolve attacks using Assault weapons its models are equipped with can be shot even if the bearer's unit Advanced.",
-            "designers_note": "",
-            "ability_id": null
-        },
-
-        {
-            "id": 7,
-            "ability_type_id": 3,
-            "name": "Blast",
-            "rule_text": "Weapons with [BLAST] in their profile are known Blast weapons, and they make a random number of attacks. Each time you determine how many attacks are made with a Blast weapon, add 1 to the result every five models that were in the target unit when you selected it as the target (rounding down). Blast weapons can never be used to make attacks against a unit that is within Engagement Range of one or more units from the attacking model's army (including its own unit).",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 8,
-            "ability_type_id": 3,
-            "name": "Devastating Wounds",
-            "rule_text": "Weapons with [DEVASTATING WOUNDS] in their profile are known as Devastating Wounds weapons. Each attack is made with such a weapon, a Critical Wound inflicts a number of mortal wounds on the target equal to the Damage characteristic of that weapon and the attack sequence ends.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 9,
-            "ability_type_id": 3,
-            "name": "Heavy",
-            "rule_text": "Weapons with [HEAVY] in their profile are known as Heavy weapons. Each time an attack is made with such a weapon, if the attacking model's unit Remained Stationary this turn, add 1 to that attack's Hit roll.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 10,
-            "ability_type_id": 3,
-            "name": "Ignores Cover",
-            "rule_text": "Weapons with [IGNORES COVER] in their profile are known as Ignores Cover weapons. Each time an attack is made with such a weapon, the target cannot have the Benefit of Cover against that attack.",
-            "designers_note": ".",
-            "ability_id": null
-        },
-        {
-            "id": 11,
-            "ability_type_id": 3,
-            "name": "Indirect fire",
-            "rule_text": "Weapons with [INDIRECT FIRE] in their profile are known as Indirect Fire weapons, and attacks can be made with them even if the target is not visible to the attacking model. These attacks can destroy enemy models in a target unit even though none may have been visible to the attacking unit when you selected that target. If no models in a target unit are visible to the attacking unit when you select that target, then each time a model in the attacking unit makes an attack against that target using an Indirect Fire weapo. subtract 1 from that attack's Hit roll and the target as the benefit of Cover against that attack.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 12,
-            "ability_type_id": 3,
-            "name": "Melta 2",
-            "rule_text": "Weapons with [MELTA X] in their profile are known as Melta weapons. Each time an attack made with such a weapon targets a unit within half that weapon's range, that attack's Damage characteristic is increased by the amount denoted by X.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 13,
-            "ability_type_id": 3,
-            "name": "Pistol",
-            "rule_text": "Weapons with [PISTOL] in their profile are known as Pistols. If a unit contains any models equipped with Pistols, that unit is eligible to shoot in its controlling ; player's Shooting phase even while it is within Engagement Range of one or more enemy units. When such a unit is selected to shoot, it can only resolve attacks using its Pistols and can only target one of the enemy units it is within Engagement Range of In such circumstances, a Pistol can target an enemy unit even if other friendly units are within. Engagement Range of the same enemy unit. If a model is equipped with one or more Pistols, unless it is a MONSTER OF VEHICLE model, it can either shoot with its Pistols or with all of its other ranged weapons Declare whether such a model will shoot with its Pistols or its other ranged weapons before selecting targets. Can be shot even if the bearer's unit is within Engagement Range of enemy units, but must target one of those enemy units Cannot be shot alongside any other non-Pistol weapon (except by a MONSTER OF VEHICLE).",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 14,
-            "ability_type_id": 3,
-            "name": "Rapid Fire 1",
-            "rule_text": "Each time such a weapon targets a unit within half that weapon's range, the Attacks characteristic of that weapon is increased by the amount denoted by X.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 15,
-            "ability_type_id": 3,
-            "name": "Rapid Fire 2",
-            "rule_text": "Weapons with [RAPID FIRE X] in their profile are known as Rapid Fire weapons. Each time such a weapon targets a unit within half that weapon's range, the Attacks characteristic of that weapon is increased by the amount denoted by X.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 16,
-            "ability_type_id": 3,
-            "name": "SUSTAINED HITS 1",
-            "rule_text": "Weapons with [SUSTAINED HITS X] in their profile are known as Sustained Hits weapons. Each time an attack is made with such a weapon, if a Critical Hit is rolled, that attack scores a number of additional hits on the target as denoted by X",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 17,
-            "ability_type_id": 3,
-            "name": "Torrent",
-            "rule_text": "Weapons with [TORRENT] in their profile are known as Torrent weapon. Each time an attack is made with such a weapon, that attack automatically hits the target.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 18,
-            "ability_type_id": 3,
-            "name": "Twin-linked",
-            "rule_text": "Weapons with [TWIN-LINKED] in their profile are known as Twin linked weapons Each time an attack is made with such a weapon, you can re-roll that attack's Wound roll.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 19,
-            "ability_type_id": 3,
-            "name": "Benefit of Cover",
-            "rule_text": "+1 saving throws. Never it improves >= 3+ saving from FP0 attacks",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 20,
-            "ability_type_id": 0,
-            "name": "Relic of the Matriarchs",
-            "rule_text": "At the start of the battle round, select up to two of the abilities in the Relics of the Matriarchs section (see left). Until the start of the next battle round, this model has those abilities.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 21,
-            "ability_type_id": "sub-ability",
-            "name": "The Flery Heart (Aura)",
-            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, if that unit is destroyed, the Miracle dice you gain as a result is automatically a 6.",
-            "designers_note": "",
-            "ability_id": 20
-        },
-        {
-            "id": 22,
-            "ability_type_id": "sub-ability",
-            "name": "Censer of the Sacred Rose (Aura)",
-            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, improve that unit's Leadership characteristic by 1.",
-            "designers_note": "",
-            "ability_id": 20
-        },
-        {
-            "id": 23,
-            "ability_type_id": "sub-ability",
-            "name": "Icon of the Valorous Heart (Aura)",
-            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, that unit has the Feel No Pain 6+ ability.",
-            "designers_note": "",
-            "ability_id": 20
-        },
-        {
-            "id": 24,
-            "ability_type_id": "sub-ability",
-            "name": "Simulacrum of the Ebon Chalice (Aura)",
-            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, that unit can perform any number of Acts of Faith per phase, instead of only one.",
-            "designers_note": "",
-            "ability_id": 20
-        },
-        {
-            "id": 25,
-            "ability_type_id": "sub-ability",
-            "name": "Petals of the Bloody Rose (Aura)",
-            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6 of this model, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.",
-            "designers_note": "",
-            "ability_id": 20
-        },
-        {
-            "id": 26,
-            "ability_type_id": "sub-ability",
-            "name": "Simulacrum of the Argent Shroud (Aura)",
-            "rule_text": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, add 1 to the Attacks characteristic of Rapid Fire weapons equipped by models in that unit.",
-            "designers_note": "",
-            "ability_id": 20
-        },
-        {
-            "id": 27,
-            "ability_type_id": 3,
-            "name": "LETHAL HITS",
-            "rule_text": "Weapons with [LETHAL HITS] in their profile are known Lethal Hits weapons. Each time an attack is made with such a weapon, a Critical Hit automatically wounds the target.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 28,
-            "ability_type_id": 3,
-            "name": "LANCE",
-            "rule_text": "Weapons with [LANCE] in their profile are known as Lance weapons. Each time an attack is made with which a weapon, if the bearer made a Charge move this turn, add to that attack's Wound roll.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
-            "id": 29,
-            "ability_type_id": 3,
-            "name": "HAZARDOUS",
-            "rule_text": "Weapons with [HAZARDOUS] in their profile are known as Hazardous weapons. Each time a unit is selected to shoot or fight, if one or more models attack with Hazardous weapons, then after that unit has resolved all of its attacks, you must take one Hazardous test for each Hazardous weapon that was just used by rolling one D6. For each roll of 1, that test is failed and one model in that unit equipped with a Hazardous weapon is destroyed (selected by the controlling player), unless that model is a CHARACTER, MONSTER VEHICLE, in which case it suffers 3 mortal wounds instead. Note that if you selected a CHARACTER model in an Attached unit, the mortal wounds suffered must be allocated to that model first, even if there is another model in that unit that has lost one or more wounds or has had attacks allocated to it this phase.",
-            "designers_note": "",
-            "ability_id": null
-        },
-        {
             "id": 30,
-            "ability_type_id": 3,
+            "ability_type_id": 5,
             "name": "EXTRA ATTACKS",
             "rule_text": "Weapons with [EXTRA ATTACKS] in their profile are known as Extra Attacks weapons. Each time the bearer of such a weapon fights, it can make attacks with that weapon in addition to the one it chooses to fight with. The number of attacks made with an Extra Attacks weapon cannot be modified by other rules.",
             "designers_note": "",
-            "ability_id": null
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": false
         },
         {
             "id": 31,
-            "ability_type_id": 3,
+            "ability_type_id": 5,
             "name": "ANTI",
             "rule_text": "Weapons with [ANT-KEYWORD X+] in their profile are known as Anti weapons. Each time an attack is made with such a weapon against a target with the keyword after the word 'Anti- an unmodified Wound roll of '+' scores a Critical Wound.",
             "designers_note": "",
-            "ability_id": null
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": false
         },
         {
             "id": 32,
-            "ability_type_id": 3,
+            "ability_type_id": 5,
             "name": "PRECISION",
             "rule_text": "Weapons with [PRECISION] in their profile are known as Precision weapons. Each time an attack made with this weapon successfully wounds an Attached unit, if a CHARACTER model in that unit is visible to attacking model, the attacking model's player can choose to have that attack allocated to that CHARACTER model instead of following the normal attack sequence.",
             "designers_note": "",
-            "ability_id": null
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": false
         },
         {
-        
             "id": 33,
-            "ability_type_id": 3,
+            "ability_type_id": 5,
             "name": "DEVASTATING WOUNDS",
-            "rule_text": "Each an attack is made with such a weapon, a Critical Wod inflicts a number of mortal wounds on the target equal to the Damage characteristic of that eapon and the attack sequence ends.",
+            "rule_text": "Each an attack is made with such a weapon, a Critical Wod inflicts a number of mortal wounds on the target equal to the Damage characteristic of that weapon and the attack sequence ends.",
             "designers_note": "",
-            "ability_id": null
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": false
         },
         {
             "id": 34,
-            "ability_type_id": 5,
+            "ability_type_id": 7,
             "name": "DEEP STRIKE",
             "rule_text": "During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
             "designers_note": "",
-            "ability_id": null
+            "resume": "■ Unit can be set up in Reserves instead of on the battlefield. ■ Unit can be set up in your Reinforcements step, more than 9\" horizontally away from all enemy models",
+            "ability_id": null,
+            "isPsychic": false
         },
         {
             "id": 35,
-            "ability_type_id": 0,
+            "ability_type_id": 1,
             "name": "Astral Aim (Psychic)",
             "rule_text": "In your Shooting phase, ranged weapons equipped by models in this unit have the [INDIRECT FIRE] ability, provided the target of that weapon is visible to one or more other friendly GREY KNIGHTS PSYKER units",
             "designers_note": "",
-            "ability_id": null
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": true
         },
         {
             "id": 36,
-            "ability_type_id": 5,
+            "ability_type_id": 6,
             "name": "PSYCHIC",
-            "rule_text": "",
+            "rule_text": "Some weapons and abilities can only be used by PSYKERS. Such weapons and abilities are tagged with the word 'Psychic'. If a Psychic weapon or ability causes any unit to suffer one or more wounds, each of those wounds is considered to have been inflicted by a Psychic Attack",
             "designers_note": "",
-            "ability_id": null
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": false
         },
         {
             "id": 37,
-            "ability_type_id": 0,
+            "ability_type_id": 1,
             "name": "Surge of Wrath (Psychic)",
             "rule_text": "Once per battle round, in the Fight phase, one model from your army with this ability can use it before resolving its attacks. If it does, until the end of the phase, each time that model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll.",
             "designers_note": "",
-            "ability_id": null
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": true
         },
         {
             "id": 38,
-            "ability_type_id": 0,
+            "ability_type_id": 1,
             "name": "Heroism's Favour",
             "rule_text": "Each time you target this model with a Stratagem, it only costs 1CP to use, even if the CP cost is higher",
             "designers_note": "",
-            "ability_id": null
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": false
         },
         {
-            "id": 38,
-            "ability_type_id": 5,
+            "id": 39,
+            "ability_type_id": 8,
             "name": "Deadly Demise D3",
-            "rule_text": "",
+            "rule_text": "Some models have 'Deadly Demise x' listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6\" of that model suffers a number of mortal wounds denoted by 'x' (if this is a random number, roll separately for each unit within 6\").",
             "designers_note": "",
-            "ability_id": null
+            "resume": "Deadly Demise D3: When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers 'D3' mortal wounds.",
+            "ability_id": null,
+            "isPsychic": false
         },
         {
-            "id": 38,
-            "ability_type_id": 3,
-            "name": "",
-            "rule_text": "",
+            "id": 40,
+            "ability_type_id": 8,
+            "name": "FEEL NO PAIN",
+            "rule_text": "Some models have 'Feel No Pain x+' listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by 'x: that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.",
             "designers_note": "",
-            "ability_id": null
+            "resume": "Feel No Pain x+: Each time this model would lose a wound, roll one 06: if the result equals or exceeds 'x', that wound is not lost.",
+            "ability_id": null,
+            "isPsychic": false
+        },
+        {
+            "id": 41,
+            "ability_type_id": 7,
+            "name": "Infiltrators",
+            "rule_text": "During deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9\" horizontally away from the enemy deployment zone and all enemy models.",
+            "designers_note": "",
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": false
+        },
+        {
+            "id": 42,
+            "ability_type_id": 7,
+            "name": "Leader",
+            "rule_text": "Some CHARACTER units have 'Leader' listed on their datasheets. Such CHARACTER units are known as Leaders, and the units they can lead - known as their Bodyguard units - are listed on their datasheet. During the Declare Battle Formations step, for each Leader in your army, if your army also includes one or more of that Leader's Bodyguard units, you can select one of those Bodyguard units. That Leader will then attach to that Bodyguard unit for the duration of the battle and is said to be leading that unit. Each Bodyguard unit can only have one Leader attached to it. While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed (pg 12), it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a CHARACTER model in that unit, even if that CHARACTER model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to CHARACTER models in that unit",
+            "designers_note": "",
+            "resume": " Before the battle, CHARACTER units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit. ■ Attached units can only contain one Leader. ■ Attacks cannot be allocated to CHARACTER models in Attached units",
+            "ability_id": null,
+            "isPsychic": false
+        },
+        {
+            "id": 43,
+            "ability_type_id": 7,
+            "name": "Scouts",
+            "rule_text": "Some units have 'Scouts x\"' listed in their abilities. Ifevery model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\" as if it were your Movement phase - as can any DEDICATED TRANSPORT model such a unit starts the battle embarked within (provided only models with this ability are embarked within that DEDI CATED TRANSPORT model). A unit that moves using this ability must end that rhove more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first",
+            "designers_note": "",
+            "resume": "■ Scouts x\": Unit can make a Normal move of up to x\" before the first turn begins. ■ If embarked in a DEDICATED TRANSPORT, that D EDICATED TRANSPORT can make this move instead. ■ Must end this move more than 9\" horizontally away from all enemy models.",
+            "ability_id": null,
+            "isPsychic": false
+        },
+        {
+            "id": 44,
+            "ability_type_id": 5,
+            "name": "ONE SHOT",
+            "rule_text": "The bearer can only shoot with this weapon once per battle.",
+            "designers_note": "",
+            "resume": "",
+            "ability_id": null,
+            "isPsychic": false
         }
     ]
 }

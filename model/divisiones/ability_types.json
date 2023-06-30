@@ -23,6 +23,14 @@
         {
             "id": 5,
             "type": "core"
+        },
+        {
+            "id": 6,
+            "type": "deployment"
+        },
+        {
+            "id": 7,
+            "type": "damage"
         }
     ]
 }

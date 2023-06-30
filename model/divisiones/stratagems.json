@@ -1,15 +1,72 @@
 {
-    
-    "Stratagem": {
-        "id": 1,
-        "name": "Rejoice the Fallen",
-        "type": "Strategic Ploy",
-        "detachment": "Hallowed Martyrs",
-        "flavor_text": "The death of a Battle Sister only stirs the survivors to fight harder to exact swift vengeance.",
-        "when": "Your opponent's Shooting Phase, just after an enemy unit has resolved its attacks.",
-        "target": "One ADEPTA SORORIRTA unit from your army that had one on more of its models destroyed as a result of the attacking unit's attacks.",
-        "effect": "Your unit can shoot as if it were in your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an elegible target.",
-        "cost": "1CP",
-        "army_id":0
-    }
+    "Stratagems": [
+        {
+            "name": "Rejoice the Fallen",
+            "type": "Strategic Ploy",
+            "detachment_id": 1,
+            "flavor_text": "The death of a Battle Sister only stirs the survivors to fight harder to exact swift vengeance.",
+            "when": "Your opponent's Shooting Phase, just after an enemy unit has resolved its attacks.",
+            "target": "One ADEPTA SORORIRTA unit from your army that had one on more of its models destroyed as a result of the attacking unit's attacks.",
+            "effect": "Your unit can shoot as if it were in your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an elegible target.",
+            "cost": "1CP",
+            "army_id": 1
+        },
+        {
+            "name": "HALOED IN SOULFIRE",
+            "type": "BATTLE TACTIC STRATAGEM",
+            "detachment_id": 2,
+            "flavor_text": "The blazing glare of ancient technology and the shrouding coils of the immaterium often linger, obscuring the Grey Knights' presence.    ",
+            "when": "WHEN: Your Movement phase.",
+            "target": "One GREY KNIGHTS PSYKER unit from your army that is arriving using the Deep Strike or Teleport Assault abilities this phase.",
+            "effect": "Until the start of your next Movement phase, your unit cannot be targeted by ranged attacks unless the attacking model is within 12\".",
+            "cost": "2CP",
+            "army_id": 2
+        },
+        {
+            "name": "RADIANT STRIKE",
+            "type": "BATTLE TACTIC STRATAGEM",
+            "detachment_id": 2,
+            "flavor_text": "Psychic fire rimes the blades of the Grey Knights as they charge at the foe, fanned by their battle fury. At the moment of contact, the empyric charge is unleashed in a blast of azure light.",
+            "when": "Fight phase",
+            "target": "One GREY KNIGHTS PSYKER unit from your army",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit with the [PSYCHIC] ability also have the [DEVASTATING WOUNDS] ability",
+            "cost": "2CP",
+            "army_id": 2
+        },
+        { 
+            "name": "COMMAND RE-ROLL",
+            "type": "CORE - BATTLE TACTIC STRATAGEM",
+            "detachment": null,
+            "flavor_text": "Agreat commander can bend even the vagaries offate andfortune to their will, the better to ensure victory.",
+            "when": "In any phase, just after you have made a Hit roll, a Wound roll , a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army.",
+            "target": "",
+            "effect": "You re-roll that roll, test or saving throw.",
+            "cost": "1CP",
+            "army_id": null
+        },
+
+        {
+            
+            "name": "COUNTER-OFFENSIVE",
+            "type": "CORE - STRATEGIC PLOY STRATAGEM",
+            "detachment": null,
+            "flavor_text": "In close-quarters combat, the slightest hesitation can leave an opening fora swiftfoe to exploit ",
+            "when": "Fight phase, just after an enemy unit has fought",
+            "target": "One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase.",
+            "effect": "Your unit fights next.",
+            "cost": "2CP",
+            "army_id": null
+        },
+        {
+            "name": "",
+            "type": "",
+            "detachment": "",
+            "flavor_text": "",
+            "when": "",
+            "target": "",
+            "effect": "",
+            "cost": "",
+            "army_id": 0
+        }
+    ]
 }
